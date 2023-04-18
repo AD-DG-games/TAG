@@ -15,7 +15,7 @@ public class InputMover : MonoBehaviour
         if (Input.GetKey(left) && position.x >= -4.5)
         {
             position.x -= speed * Time.deltaTime;
-            this.transform.position = position ;
+            this.transform.position = position;
         }
         if (Input.GetKey(right) && position.x <= 4.5)
         {
@@ -32,7 +32,6 @@ public class InputMover : MonoBehaviour
             position.y -= speed * Time.deltaTime;
             this.transform.position = position;
         }
-        
     }
 }
 
